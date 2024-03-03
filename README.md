@@ -34,21 +34,16 @@ I attempted to find enconomic data to incorporate into my map, to better demonst
 
 ![Print Layout of Map](Print.png)
 
-You can describe the mapmapking process in this section, including images where it helps to describe the process.
+For this assignment, I imported OSM and US Census Data. I added state boundaries and removed fill. I adjusted the color and weight of the line stroke to increase its visibility, to make the state boundaries more apparent. I then added the county boundaries and names, so the viewer could zoom in to identify specific locations. 
 
-You can also use some lists, and here's some formatting ideas.
-
-1. **Example bold**
-2. *Example italics*
-3. 
-4. 
+Next, I added my data pertaining to museums and universities/colleges. I selected a specific region of the US, including and surrounding the heart of the appalachian region. Then, using the canvas extent to constrain my search, I ran two querries on the area: museums and universities. I adjusted the graphic representation of the points to increase their visibility, by assigning them unique shapes (square and star) and higher contrast colors (red and blue).
 
 ### Map summary
 
-What are the key findings to take from your map and the overall mapmaking process?
+From this map, it is apparent that areas within this region that have more access to higher education are more likely to have greater access to cultural institutions. Access to these resources is particularly dense in southern Ohio, around Cincinatti. In Lexington and Louisville, there are fewer institutions than I would expect in comparison to Cincinnati. I wonder if this is an effect of biases in map data collection for OSM, since there in a predominant German history in Cincinnati, and I noted from an earlier module that the primary demographic inputting data into OSM is german males.
+
+Through the process of creating this map, I have identified additional questions I would be curious about answering through mapping. I am curious to find the distances between specific areas in eastern Kentucky and the closest museums/universities. I would also be curious about the size and scale of those institutions. I would be curious about what other cultural institutions are mapped, and how those relate to this map. Finally, I would be curious to see a map of National Endowment for the Arts grants, since much of that funding is meant to bring accessibility to the arts in areas where it is otherwise unaccessible.
 
 ## Final Project Link
-
-Here you are linking from the README.md to the index.html.
 
 Please view the [final map online](www.github...)
