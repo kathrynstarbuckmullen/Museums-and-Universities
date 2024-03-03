@@ -1,191 +1,122 @@
 <!DOCTYPE html>
 <html>
+<!-- This is a comment in HTML -->
+
 <head>
-    <meta charset=utf-8 />
-    <title>Add Your Arch Name Here one of the 718 named arches in the United States</title>
-    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+	<meta charset=utf-8 />
+	<!-- Below is the title of the document -->
+	<title>Template Example Edit</title>
+	<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css" />
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,900i" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css" />
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
 
-    <style>
-        /* UK Colors: 
+	<style>
+		/* This is a comment in CSS. Below are the document styles. */
+		/* Hexadecimal values for UKy Colors: 
             #c7c9c8 light gray 
             #63666a dark gray
             #15397f dark blue
             #009bda light blue
             #0033a0 official blue
         */
-        body {
-            margin: 0;
-            padding: 0;
-            background: #c7c9c8;
-            font-family: 'Lato', sans-serif;
-            font-weight: 300;
-            color: #3d3d3d;
-            font-size: 1.1em;
+		body {
+			margin: 0;
+			padding: 0;
+			background: #ffffff;
+			font-family: 'Open Sans', sans-serif;
+			font-weight: 400;
+			color: #3d3d3d;
+		}
 
-        }
+		section {
+			width: 960px;
+			/* width: 80%; */
+			margin: 20px auto;
+		}
 
-        section {
-            width: 80%;
-            margin: 10px auto;
-        }
+		h1 {
+			font-family: 'Open Sans', sans-serif;
+			font-weight: 300;
+			/* The em unit. 2.5x the current size */
+			font-size: 2.5em;
+			letter-spacing: .04em;
+			text-transform: uppercase;
+		}
 
-        h1 {
-            font-family: 'Lato', sans-serif;
-            font-weight: 900i;
-            font-size: 2.8em;
-            font-style: italic;
-            /* The em unit. 3x the current size */
-            letter-spacing: .01em;
-            margin: 0 0 15px 0;
-            /* text-transform: uppercase; */
-        }
+		h2 {
+			font-family: 'Open Sans', sans-serif;
+			font-weight: 700;
+			color: gray;
+			font-size: 1.1em;
+			letter-spacing: .04em;
+		}
 
-        h2 {
-            font-family: 'Lato', sans-serif;
-            font-weight: 300;
-            color: #63666a;
-            font-size: 1.5em;
-            letter-spacing: .06em;
-            font-style: italic;
-            margin: 0 0 25px 0;
-        }
+		p {
+			font-size: 1em;
+			line-height: 1.5em;
+		}
 
-        p {
-            font-size: 1.15em;
-            line-height: 1.8em;
-            margin: 0 0 25px 0;
-        }
+		a {
+			color: #005daa;
+			text-decoration: none;
+		}
 
-        a {
-            color: #15397f;
-            text-decoration: none;
-        }
+		a:hover {
+			text-decoration: underline;
+		}
 
-        a:hover {
-            text-decoration: underline;
-        }
+		ul {
+			padding-left: 20px;
+		}
 
-        ul {
-            padding: 0px 20px 4px 20px;
-            /* font-size: 0.96em; */
-            line-height: 1.6em;
-            color: #63666a;
-        }
+		li {
+			margin: 10px 0
+		}
 
-        li {
-            margin: 10px 0
-        }
+		#map {
+			width: 100%;
+			margin: 0px auto;
+		}
 
-        #map {
-            width: 100%;
-            margin: 0px auto;
+		.max-width-img {
+			width: 100%;
+		}
 
-        }
-
-        .max-image-width {
-            width: 100%;
-        }
-
-        /* add custom style class here */
-
-        .linkbox {
-            margin: 3px 0 20px 0;
-            display: block;
-            font-weight: 300;
-        }
-
-        hr {
-            border: 0px;
-            border-bottom: 1px solid #3d3d3d;
-            padding-top: 20px;
-        }
-
-        /* Use float property to make two-column layout */
-
-        .first-column {
-            float: left;
-            width: 48%;
-            padding-right: 20px;
-        }
-
-        .column {
-            float: left;
-            width: 48%;
-        }
-
-        /* Clear floats after the columns */
-
-        .row:after {
-            content: "";
-            display: table;
-            clear: both;
-        }
-
-        .svg-title {
-            float: left;
-            display: inline-block;
-            width: 75px;
-            margin: -8px 10px -8px 0;
-        }
-
-        /* When browser is 800px wide or less */
-
-        @media screen and (max-width: 800px) {
-
-            .first-column,
-            .column {
-                width: 100%;
-            }
-        }
-    </style>
+		/* Add custom style class here */
+	</style>
 </head>
 
 <body>
-    <iframe src="map.html" width="100%" height="440px"></iframe>
-    <section>
-        <a href='map.html' class="linkbox">Full-screen version</a>
+	<section>
+		<!-- The division element contains an image element -->
+		<div id='map'>
+			<!-- The image element uses the the 'src' property to show an image on the page. -->
+			<img src="images/thenameofyourfile.jpg" class="max-width-img" alt="This map displays the selected area of interest from OpenStreetMap">
+		</div>
+		<!-- <a href="">Link to high resolution version</a> -->
 
-        <img src="arches.svg" class="svg-title">
-        <h1>Add the arch name here and 718 named arches</h1>
-        <h2>University of Kentucky Geography</h2>
-        <div class="row">
-            <div class="first-column">
-                <p>
-                    Arches extracted from the Domestic and Antarctic Names (State and Topical Gazetteer) published by
-                    the United States Board on Geographic Namkes. (<a hred="https://geonames.usgs.gov/domestic">geonames.usgs.gov</a>)
-                    Data accessed August, 2018. Contours were extracted from a USGS NED 1/3 arc-second raster digital
-                    elevation model. This data can be accessed at the USGS 3D Elevation Program (<a href="https://www.usgs.gov/core-science-systems/ngp/3dep">usgs.gov</a>)
-                </p>
-                <h3>Tools used in this project</h3>
-                <ul>
-                    <li>PostGIS was used to store/query the national dataset.</li>
-                    <li>Data is shown on Mapbox web map with geolocation services enabled. If the map got popular it would require a fee to use.</li>
-                    <li>GDAL and QGIS to convert raster elevation units and create contours.</li>
-                </ul>
+		<!-- This is an HTML comment. Find the comments below and follow the instructions. -->
 
+		<h1>Title on page</h1>
 
-                <hr>
-               
-                </p>
+		<!-- Add your information below -->
+		<h2>Authored by: New Maps Plus</h2>
+		<p>Describe how this map was made, data sources, and other important metadata. Include link(s) to the data
+			source: <a href="https://nationalmap.gov/small_scale/atlasftp.html" target="blank">The National Map
+				Small-Scale website</a>. </p>
 
-
-            </div>
-            <div class="column">
-                <img class="max-image-width" src="https://farm8.staticflickr.com/7418/27278443166_b1babc3b16_b.jpg"
-                    title="Gray&#x27;s Arch">
-                <div class="linkbox">Photograph by Boyd Shearer</div>
-
-            </div>
-        </div>
-
-
-        <hr>
-        <!-- <h4><a href="https://uky-gis.github.io">UKy GIS and Mapping</a></h4> -->
-        <a href="https://uky-gis.github.io">
-            <img src="logo-color-400px.png" alt="Uinversity of Kentucky Geography"></a>
-    </section>
+		<ul>
+			<!-- Change the following contacts to your personal brand, whatever you want it to be! -->
+			<li>See my projects on GitHub: <a href="https://github.com/newmapsplus">New Maps Plus</a></li>
+		</ul>
+		<hr>
+		<a href="https://uky-gis.github.io"><img width="20%"
+				src="https://uky-gis.github.io/graphics/logo-color-400px.png"
+				alt="University of Kentucky Geography"></a>
+		<a href="https://newmapsplus.as.uky.edu"><img width="15%"
+				src="https://newmapsplus.as.uky.edu/sites/default/files/NMP%20Logo.png" alt="New Maps Plus"></a>
+	</section>
 </body>
+
 </html>
