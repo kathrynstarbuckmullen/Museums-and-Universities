@@ -13,11 +13,9 @@ Across the README.md file, please answer the who, what, when, where, why, and ho
 ### Data Source
 This map was made in QGIS by importing state and county lines and data from the United States Census information, and querying museums and cultural institutions and colleges and universities through open street maps.
 
-<a href="https://www.census.gov/cgi-bin/geo/shapefiles/index.php?year=2023&layergroup=Counties+%28and+equivalent%29" target="_blank">The International Clearinghouse for Birth Defects Surveillance and Research</a>is
+<a href="https://www.census.gov/cgi-bin/geo/shapefiles/index.php?year=2023&layergroup=Counties+%28and+equivalent%29" target="_blank">Link to US Census Data Source</a>is
 
-[Link to US Census Data Source]([https://www.census.gov/cgi-bin/geo/shapefiles/index.php?year=2023&layergroup=Counties+%28and+equivalent%29])
-
-[Link to Open Street Maps]([https://www.openstreetmap.org/#map=5/34.904/-115.159])
+<a href="https://www.openstreetmap.org/#map=5/34.904/-115.159" target="_blank">Link to Open Street Maps</a>is
 
 * Initial Data projection: 3857
 * Final Map projection: 3857
@@ -30,7 +28,7 @@ I chose to complete these queries after reading The Injustice of Place (2023, Ed
 
 I created this map to visually communicate the concentration of educational and cultural institutions in and around the most economically distressed area of the appalachian region (eastern Kentucky and western West Virginia, per the Appalachian Regional Commission, or ARC).
 
-I attempted to find enconomic data to incorporate into my map, to better demonstrate the relationship. I was not able to access open-source data specific to counties within this region, however, I suggest looking at the ARC's [Classifying Economic Distress in Appalachian Counties]([https://www.arc.gov/classifying-economic-distress-in-appalachian-counties/]) for context.
+I attempted to find enconomic data to incorporate into my map, to better demonstrate the relationship. I was not able to access open-source data specific to counties within this region, however, I suggest looking at the ARC's <a href="[https://www.openstreetmap.org/#map=5/34.904/-115.159" target="_blank](https://www.arc.gov/classifying-economic-distress-in-appalachian-counties/)">Classifying Economic Distress in Appalachian Counties</a>is 
 
 ### Mapmaking Process
 
