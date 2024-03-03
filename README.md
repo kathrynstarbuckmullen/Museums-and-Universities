@@ -28,11 +28,11 @@ I chose to complete these queries after reading The Injustice of Place (2023, Ed
 
 I created this map to visually communicate the concentration of educational and cultural institutions in and around the most economically distressed area of the appalachian region (eastern Kentucky and western West Virginia, per the Appalachian Regional Commission, or ARC).
 
-I attempted to find enconomic data to incorporate into my map, to better demonstrate the relationship. I was not able to access open-source data specific to counties within this region, however, I suggest looking at the ARC's <a href="https://www.arc.gov/classifying-economic-distress-in-appalachian-counties/" target="_blank">Classifying Economic Distress in Appalachian Counties</a>is 
+I attempted to find enconomic data to incorporate into my map, to better demonstrate the relationship. I was not able to access open-source data specific to counties within this region, however, I suggest looking at the ARC's <a href="https://www.arc.gov/classifying-economic-distress-in-appalachian-counties/" target="_blank">Classifying Economic Distress in Appalachian Counties</a>
 
 ### Mapmaking Process
 
-![Print Layout of Map](images/RegionalMuseumsPrint.jpeg)
+![Print Layout of Map](images/Print.png)
 
 You can describe the mapmapking process in this section, including images where it helps to describe the process.
 
