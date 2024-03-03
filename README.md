@@ -1,11 +1,8 @@
 # Museums-and-Universities
-Museums and universities in the region of and surrounding Lexington, KY
 
 Across the README.md file, please answer the who, what, when, where, why, and how of the map making process
 
 ## Project Contents
-
-If you wanted to include a table of contents to sections, and then links to each section.
 
 - [Data Source](#data-source)
 - [Project Background](#project-background)
@@ -14,23 +11,28 @@ If you wanted to include a table of contents to sections, and then links to each
 ***
 
 ### Data Source
+This map was made in QGIS by importing state and county lines and data from the United States Census information, and querying museums and cultural institutions and colleges and universities through open street maps.
 
-[Link to data source](https://...)
+[Link to US Census Data Source]([https://www.census.gov/cgi-bin/geo/shapefiles/index.php?year=2023&layergroup=Counties+%28and+equivalent%29])
 
-* Initial Data projection: 
-* Final Map projection:
+[Link to Open Street Maps]([https://www.openstreetmap.org/#map=5/34.904/-115.159])
+
+* Initial Data projection: 3857
+* Final Map projection: 3857
 
 ### Project Background
 
-If you are interested in [other Markdown formatting options](https://www.markdownguide.org/basic-syntax/)
+I chose to complete these queries after reading The Injustice of Place (2023, Edin, Nelson, Shaefer), which identified several parts the appalachian region in Kentucky and West Virginia as some of the most deeply disadvantaged places in the US (in addition to parts of the Mississippi delta and southern Texas) due to their histories of internal-colonization and resource extraction. Considering the disparities of wealth and resources in those communities, I was curious to see where cultural institutions and educational resources existed in and surrounding some of the most economically disadvantaged places in the US. 
 
 ### Purpose
 
-Please write about the map purpose using complete sentences. 
+I created this map to visually communicate the concentration of educational and cultural institutions in and around the most economically distressed area of the appalachian region (eastern Kentucky and western West Virginia, per the Appalachian Regional Commission, or ARC).
+
+I attempted to find enconomic data to incorporate into my map, to better demonstrate the relationship. I was not able to access open-source data specific to counties within this region, however, I suggest looking at the ARC's [Classifying Economic Distress in Appalachian Counties]([https://www.arc.gov/classifying-economic-distress-in-appalachian-counties/]) for context.
 
 ### Mapmaking Process
 
-Example of in process map ![in process image](filepath)
+![Print Layout of Map](images/RegionalMuseumsPrint.jpeg)
 
 You can describe the mapmapking process in this section, including images where it helps to describe the process.
 
