@@ -6,12 +6,14 @@ Across the README.md file, please answer the who, what, when, where, why, and ho
 
 - [Data Source](#data-source)
 - [Project Background](#project-background)
-- [Methodology] (#methodology)
+- [Methodology](#methodology)
 
 ***
 
 ### Data Source
 This map was made in QGIS by importing state and county lines and data from the United States Census information, and querying museums and cultural institutions and colleges and universities through open street maps.
+
+<a href="https://www.census.gov/cgi-bin/geo/shapefiles/index.php?year=2023&layergroup=Counties+%28and+equivalent%29" target="_blank">The International Clearinghouse for Birth Defects Surveillance and Research</a>is
 
 [Link to US Census Data Source]([https://www.census.gov/cgi-bin/geo/shapefiles/index.php?year=2023&layergroup=Counties+%28and+equivalent%29])
 
