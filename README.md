@@ -32,7 +32,7 @@ I attempted to find enconomic data to incorporate into my map, to better demonst
 
 ### Mapmaking Process
 
-![Print Layout of Map](images/Print.png)
+![Print Layout of Map](Print.png)
 
 You can describe the mapmapking process in this section, including images where it helps to describe the process.
 
