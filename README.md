@@ -49,4 +49,4 @@ Through the process of creating this map, I have identified additional questions
 
 ## Final Project Link
 
-Please view the [final map online](www.github...)
+Please view the [final map online](https://kathrynstarbuckmullen.github.io/Museums-and-Universities/index.html)
