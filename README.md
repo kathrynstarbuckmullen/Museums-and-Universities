@@ -1,4 +1,4 @@
-# Spring 2024 Final Project: Museums-and-Universities
+# Spring 2024 Final Project: Museums and Universities In and Around the Heart of the Appalachian Region
 
 ## Project Contents
 
