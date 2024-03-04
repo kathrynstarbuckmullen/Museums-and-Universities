@@ -1,6 +1,4 @@
-# Museums-and-Universities
-
-Across the README.md file, please answer the who, what, when, where, why, and how of the map making process
+# Spring 2024 Final Project: Museums-and-Universities
 
 ## Project Contents
 
@@ -17,8 +15,13 @@ This map was made in QGIS by importing state and county lines and data from the 
 
 <a href="https://www.openstreetmap.org/#map=5/34.904/-115.159" target="_blank">Link to Open Street Maps</a>
 
-* Initial Data projection: 3857
-* Final Map projection: 3857
+Map Projection:
+
+* Initial "Museum" OSM projection: EPSG 4269
+* Initial "University" OSM projection: EPSG 4326
+* Final Map projection: EPSG 3857/ Wgs 84/Pseudo Mercator
+* Scale: 1:518338
+* Center coordinates:-9314139, 4601813
 
 ### Project Background
 
